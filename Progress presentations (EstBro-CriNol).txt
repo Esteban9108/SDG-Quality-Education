@@ -1,0 +1,93 @@
+﻿EstBro-CriNol
+Dr. Modell
+CIT 4350
+20 October 2026
+Progress Presentations
+EstBro-CriNol Problems:
+
+Cristian:  I  was tasked with creating the surveys and looking up some academic articles that were relevant to the SDG. Hard  trying to find articles  that fit within our criteria and need help trying to find the data we need. Before going up, the team talked with the class about other problems and their solutions to the problem helped my problem. WIll also need to follow up with Taylor with help going through and finding articles. 
+
+
+
+
+Esteban: 
+I was having trouble with creating the database and linking it to the repository. The sources I had were using different databases than MySQL, and when they did use MySQL, it was difficult for me to follow. So I found a workaround by reusing the localhost root from the Zybooks assignment, and now I just upload my SQL programs to GitHub for my team members to see what I did and to make changes or test if they want. My new problem is setting up the tables, but mainly setting up the data to start finding trends. 
+
+
+Nolan:
+I was having trouble finding proper articles for the assignment along with just learning how to use GIT and SQL. I am relatively new to coding so getting the bearings of these applications has been important to me. I believe I’ve been getting the hang of it as of late though.
+
+
+
+
+Main Notes:
+
+
+Group 1, check out
+
+
+Cristian:
+Needs help with branching from surveys
+Needs help with creating tables, recommended junction tables
+Github help, merge conflicts but team helped him
+Group 1 had problems that were resolved before or resolved with the meeting. 
+
+
+Esteban: 
+Main challenge was the survey design and why use a database over something like Excel? Definitely something for our team to look into, especially me with the database. Not only that, but we should look at other ways rather than just surveys to see other aspects that can affect the classroom and education.
+
+
+Nolan: 
+good health and wellbeing
+anon survey around the country
+ask different questions for the database
+challenge: make it more complex, simple questions are basically an excel sheet
+branching surveys based on part time/full time with different questions
+challenge: what belongs in each table
+
+
+Databreak/leak
+Cristian:
+Sdg 14, underwater
+Doing hudson river samples
+Issues with creating table and fixed it by using a junction table
+Candidate key was suggested over composite key
+Dont throw away the data, better to ignore
+For when temp is too hot in water, moving that data over to its own table for errors. 
+Needs help with differentiating data between each other if the distance isn't a lot. Says to use location data type
+Suggested geolocation to group
+
+
+Scriptkittys
+
+
+Cristian:
+Sdg 9
+Provide students with technology and education
+Look at schools with broken equipment or non useful equipment
+Make surveys 
+Issues: Volume of data needed
+Not sure how much data should be inserted into their database. 
+Told that they should be creating the tools instead of thinking off creating the actual data and collecting it. Clarified that they were creating tables with entries instead of letting script do it to ensure randomization. 
+Telling them to hold members accountable if not doing work
+
+
+Esteban: 
+I saw in MySQL there is an option for Python, but I overlooked it. However, the professor mentioned to use Python to automate the dataset. Its interesting to try, my only concern isn’t the randomization, its how to create all of it. He made it sound easier than it probably is, but it is a new thing to research, and if it works, will save a lot of time.
+
+
+Team: Primary keys
+
+
+Cristian:
+Check climate on month to month basis
+Using 3 data sources, drones
+Collecting different altitude of air quality
+Created tables, problem with altitude in observations table
+Problem with breaking table off, he needs altitude but not sure if stays in observations or in device as a key.
+Suggested to keep one main table then break off if you only need it to support. 
+Asking to see if a day and time can be a separate table
+
+
+Esteban: 
+There is definitely alot of different data this group can collect, but also how to be careful when “collecting” that data. What's interesting is their approach, and I am also running into the same problem when it comes to organizing the data. In these different tables, how can I link and relate them? Do I have to create another table or keep it separate?
